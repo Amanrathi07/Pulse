@@ -66,7 +66,6 @@ const index = () => {
         )}
         extraData={expandedSubscriptionId}
         ItemSeparatorComponent={() => <View className='h-4' />}
-        scrollEnabled
         showsVerticalScrollIndicator={false}
         ListEmptyComponent={<Text className='home-empty-state'>
           No subscriptions yet.
